@@ -1,0 +1,6 @@
+Syntax Quick Reference
+	
+	Value of pi:
+		math.pi
+	
+
