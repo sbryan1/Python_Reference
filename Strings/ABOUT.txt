@@ -1,0 +1,10 @@
+Syntax Quick Reference
+	String to all caps:
+		room = "myroom"
+		room.upper()
+	
+	Number of characters in a string:
+		room = "myroom"
+		room.count('o')
+	
+
