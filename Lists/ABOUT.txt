@@ -1,0 +1,70 @@
+
+
+
+
+
+
+
+
+SYNTAX QUICK REFERENCE
+
+	List sorting in descending order:
+		mylist = [1,2,3,4]
+		sorted(mylist,reverse = True)			// [4, 3, 2, 1]
+	
+	List slicing:
+	        x = ["a", "b", "c", "d"]
+        	x[:2]
+        	x[2:]
+        	x[:]
+	
+	List subsetting:
+		x = [["a", "b", "c"],
+     	             ["d", "e", "f"],
+     		     ["g", "h", "i"]]
+		x[2][0]						// 'g'
+		x[2][:2]					// ['g', 'h']
+		
+	List element replacement:
+		x = ["a", "b", "c", "d"]
+		x[1] = "r"
+		x[2:] = ["s", "t"]				// x becomes ['a', 'r', 's', 't']
+	
+	List extending:
+		x = ["a", "b", "c", "d"]
+		y = x + ["e", "f"]				// y becomes ['a', 'b', 'c', 'd', 'e', 'f']
+	
+		
+	List element deletion
+		x = ["a", "b", "c", "d"]
+		del(x[1])
+		
+	List copying (explicit copy)
+		areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+		areas_copy = list(areas)
+		
+		
+	Get the index of a an element in a list
+		areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+		areas.index(20.0)				// 2 
+
+	Count how many times an object appears in a list
+		areas = [11.25, 18.0, 20.0,11.25 10.75, 9.50]
+		areas.count(11.25)				// 2
+		
+	Adding element to list
+		areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+		areas.append(24.5)
+		
+	Reversing the order of element in a List
+		areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+		areas.reverse()					// areas becomes [15.45, 24.5, 9.5, 10.75, 20.0, 18.0, 11.25]
+
+	
+
+		
+		
+	
+		
+	
+        
