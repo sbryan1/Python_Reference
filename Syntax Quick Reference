@@ -1,0 +1,45 @@
+Help:
+	help(max)
+	?max
+
+Package import:
+
+	import math
+
+Selective package importing and aliases
+
+	from math import radians
+	radians(12)				// 0.20943951023931956							
+	
+	from scipy.linalg import inv as my_inv
+	my_inv([[1,2], [3,4]])
+
+	
+	
+Multiple Commands on the Same:
+
+	## Same line
+	command1; command2
+
+	## Separate lines
+	command1
+	command2
+
+Get the type of an object:
+
+	i = 42
+	type(42)				// int
+
+Length of an object:
+
+	var1 = [1,2,3,4]
+	len(var1)				//4
+	
+Converting to int
+
+	var1 = True
+	int(var1)				//1
+	var2 = 3.14
+	int(var2)				//3
+
+	
